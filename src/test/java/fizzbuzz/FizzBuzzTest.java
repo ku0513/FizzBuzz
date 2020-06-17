@@ -61,11 +61,11 @@ public class FizzBuzzTest {
                 assertEquals("1", fizzbuzz.convert(1));
             }
             @Test
-            void _境界値の1つ内側2を渡すと文字列1に変換する() {
+            void _境界値の1つ内側2を渡すと文字列2に変換する() {
                 assertEquals("2", fizzbuzz.convert(2));
             }
             @Test
-            void _境界値の1つ外側101を渡すと文字列1に変換する() {
+            void _境界値の1つ外側101を渡すと文字列101に変換する() {
                 assertEquals("101", fizzbuzz.convert(101));
             }
         }
